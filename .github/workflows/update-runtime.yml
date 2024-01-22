@@ -18,8 +18,8 @@ jobs:
         echo "$(date '+%Y-%m-%d %H:%M:%S')" > runtime.txt
 
         # 提交更改到仓库
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.email "huanthree@gmail.com"
+        git config --local user.name "huanthree"
         git add runtime.txt
         git commit -m "自动更新 runtime.txt"
         git push
