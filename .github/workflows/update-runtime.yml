@@ -2,7 +2,7 @@ name: 定时更新 README
 
 on:
   schedule:
-    - cron: '0 */2 * * *' # 每2小时触发一次
+    - cron: '*/50 * * * *' # 每50分钟触发一次
 
 jobs:
   update-readme:
