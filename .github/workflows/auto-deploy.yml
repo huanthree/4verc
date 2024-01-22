@@ -7,7 +7,7 @@ on:
 
 jobs:
   Redeploy:
-    name: Redeploy Choreo
+    name: Redeploy Verc
 
     runs-on: ubuntu-latest
 
